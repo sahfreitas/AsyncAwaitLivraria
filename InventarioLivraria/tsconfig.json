@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",               // gera código moderno
+    "module": "CommonJS",             // módulo padrão do Node
+    "outDir": "./dist",               // saída dos .js compilados
+    "rootDir": "./src",               // código fonte em src/
+    "strict": true,                   // checagem mais rigorosa
+    "esModuleInterop": true,          // facilitar importações CommonJS
+    "skipLibCheck": true
+  }
+}

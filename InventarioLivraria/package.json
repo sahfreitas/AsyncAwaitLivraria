@@ -1,0 +1,26 @@
+{
+  "name": "inventariolivraria",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/chalk": "^0.4.31",
+    "@types/node": "^24.0.8",
+    "@types/readline-sync": "^1.4.8",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^12.6.3",
+    "readline-sync": "^1.4.10"
+  }
+}
